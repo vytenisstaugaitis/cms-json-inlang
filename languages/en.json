@@ -7,6 +7,15 @@
     "about_list_2": "sometimes too hard"
   },
   "header": {
-    "switchlang": "EN"
+    "switchlang": "EN",
+    "menu": {
+      "home": "home",
+      "about": "about"
+    }
+  },
+  "about": {
+    "title": "about us",
+    "subtitle": "we do the we can",
+    "main_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nibh sem, tristique pulvinar elit ultricies, dignissim euismod velit. Ut sed scelerisque nulla. Nullam lobortis libero quis neque blandit ultrices. Phasellus sed purus convallis, bibendum tellus eu, elementum metus. Sed dignissim ultricies velit, et eleifend metus consectetur vel. Maecenas tristique libero vel placerat pretium. Nullam porttitor nisl eros, ut imperdiet nunc auctor id. Phasellus consectetur efficitur lacus vel varius. Nunc accumsan, turpis eget dictum pharetra, tortor justo congue eros, in malesuada ex elit sed nulla. Pellentesque non pulvinar nisl, sed lacinia felis. Proin ut vehicula odio. Sed commodo quam lectus, in porttitor mi tempor nec. Donec sollicitudin nec neque non mattis. Curabitur auctor efficitur enim vel euismod. Vivamus congue sagittis dolor, a tempor felis condimentum sed. Nulla faucibus nisi a diam finibus, ut iaculis urna lobortis."
   }
 }

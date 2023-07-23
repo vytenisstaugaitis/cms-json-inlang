@@ -34,10 +34,42 @@
         "switchlang": {
           "type": "string",
           "title": "switchLang"
+        },
+        "menu": {
+          "type": "object",
+          "properties": {
+            "home": {
+              "type": "string",
+              "title": "home"
+            },
+            "about": {
+              "type": "string",
+              "title": "about"
+            }
+          },
+          "title": "menu"
         }
       },
       "title": "header"
+    },
+    "about": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "title": "title"
+        },
+        "subtitle": {
+          "type": "string",
+          "title": "subtitle"
+        },
+        "main_text": {
+          "type": "string",
+          "title": "main_text"
+        }
+      },
+      "title": "about"
     }
   },
-  "title": "Carlsen"
+  "title": "website"
 }

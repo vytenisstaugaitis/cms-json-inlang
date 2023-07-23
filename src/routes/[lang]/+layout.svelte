@@ -1,6 +1,24 @@
-<!-- This file was created by inlang.
-It is needed in order to circumvent a current limitation of SvelteKit. See https://github.com/inlang/inlang/issues/647
-You can remove this comment and modify the file as you like. We just need to make sure it exists.
-Please do not delete it (inlang will recreate it if needed). -->
+<script>
+    import { i } from '@inlang/sdk-js'
+    import { language } from "@inlang/sdk-js"
+    import { switchLanguage } from "@inlang/sdk-js"
+  
+    let lang = language
+  
+    lang = lang === 'de' ? 'en' : 'de'
+  
+    async function switchLang() {
+      switchLanguage(lang)
+    }
+</script>
+
+<ul>
+    <li><a href="/">{i('header.menu.home')}</a></li>
+    <li><a href="{language}/about">{i('header.menu.about')}</a></li>
+</ul>
 
 <slot />
+
+<button on:click={switchLang}>
+    {i('header.switchLang')} <span style="text-transform:uppercase">{lang}</span>
+</button>
