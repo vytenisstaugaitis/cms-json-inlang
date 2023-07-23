@@ -11,7 +11,8 @@
     "menu": {
       "home": "home",
       "about": "about"
-    }
+    },
+    "edit_this_page": "edit this page"
   },
   "about": {
     "title": "about us",

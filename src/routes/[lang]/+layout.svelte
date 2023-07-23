@@ -10,6 +10,13 @@
     async function switchLang() {
       switchLanguage(lang)
     }
+
+    const buttonHandle = () => {
+        window.open(
+            'https://inlang.com/editor/github.com/vytenisstaugaitis/cms-json-inlang?lang=en&lang=de',
+            '_blank'
+        );
+    }
 </script>
 
 <ul>
@@ -21,4 +28,8 @@
 
 <button on:click={switchLang}>
     {i('header.switchLang')} <span style="text-transform:uppercase">{lang}</span>
+</button>
+
+<button on:click={buttonHandle}>
+    {i('header.edit_this_page')}
 </button>

@@ -48,6 +48,10 @@
             }
           },
           "title": "menu"
+        },
+        "edit_this_page": {
+          "type": "string",
+          "title": "edit_this_page"
         }
       },
       "title": "header"
