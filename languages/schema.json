@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "properties": {
+    "home": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "title": "title"
+        },
+        "subtitle": {
+          "type": "string",
+          "title": "subtitle"
+        },
+        "about_list_0": {
+          "type": "string",
+          "title": "about_list_0"
+        },
+        "about_list_1": {
+          "type": "string",
+          "title": "about_list_1"
+        },
+        "about_list_2": {
+          "type": "string",
+          "title": "about_list_2"
+        }
+      },
+      "title": "home"
+    },
+    "header": {
+      "type": "object",
+      "properties": {
+        "switchlang": {
+          "type": "string",
+          "title": "switchLang"
+        }
+      },
+      "title": "header"
+    }
+  },
+  "title": "Carlsen"
+}
