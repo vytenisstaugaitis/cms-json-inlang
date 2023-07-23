@@ -13,8 +13,8 @@
 </script>
 
 <ul>
-    <li><a href="/">{i('header.menu.home')}</a></li>
-    <li><a href="{language}/about">{i('header.menu.about')}</a></li>
+    <li><a href="/{language}">{i('header.menu.home')}</a></li>
+    <li><a href="/{language}/about">{i('header.menu.about')}</a></li>
 </ul>
 
 <slot />
