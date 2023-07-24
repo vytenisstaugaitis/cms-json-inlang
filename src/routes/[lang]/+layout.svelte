@@ -1,7 +1,5 @@
 <script>
-    import { i } from '@inlang/sdk-js'
-    import { language } from "@inlang/sdk-js"
-    import { switchLanguage } from "@inlang/sdk-js"
+    import { i, language, switchLanguage } from '@inlang/sdk-js'
   
     let lang = language
   
